@@ -1,0 +1,61 @@
+.sliderwrapper{
+    width: 99%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+ }
+ 
+ .slider{
+    background: #F44336;
+    flex: 1 0 300px;
+ }
+ 
+ .sliderwrapperinputs{
+    background: #2552A4;
+    flex: 1 0 300px;
+ }
+
+ .slidersmallboxleft{
+    width: 12vw;
+    height: 12vw;
+    background: #FFFFFF;
+ }
+ 
+ .slidersmallboxright{
+    width: 12vw;
+    height: 15vw;
+    background: #FFFFFF;
+ }
+ 
+ .sliderimages{   
+    background: #B7B7B7;
+   //  height: 50% !important;
+   //  width: 50% !important;
+ }
+
+ .hover{
+    cursor:pointer;
+ }
+ 
+ .default{
+    cursor:default;
+ }
+
+.customlist{
+  
+   position: absolute;
+   top:90%;
+   left:90%;
+   
+}
+.customname
+{
+   display: flex;
+}
+.baner_wishlist,.baner_share{
+   width:25px;
+   height:22px;
+}

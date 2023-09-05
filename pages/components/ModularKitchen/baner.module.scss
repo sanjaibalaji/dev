@@ -1,0 +1,240 @@
+// .imageContainer {
+//   display: flex;
+//   align-items: center;
+//   position: relative;
+//  }
+//  .kitchenimage{
+//   width:100%;
+//   // height:100%;
+//  }
+
+// .kitchenbanercontent {
+//   position: absolute;
+//   left: 100px;
+//   top: 25%;
+//   transform: translateY(-50%);
+//   padding: 10px;
+//   color: white;
+// }
+
+// .tagline {
+//   width: 40%;
+//   font-family: "Montserrat";
+//   font-size: 32px;
+//   // line-height: 58.51px;
+//   color: #ffffff;
+//   font-family: "Montserrat";
+//   font-style: normal;
+//   font-weight: 600;
+//   // position: relative;
+ 
+// }
+// .kitchenbanerform{
+//   position: absolute;
+//   left: 30px;
+//   top: 60%;
+//   transform: translateY(-50%);
+//   padding: 10px;
+//   color: white;
+// }
+// .imageContainer {
+//   display: flex;
+//   align-items: center;
+//   position: relative;
+// }
+
+// .kitchenimage {
+//   width: 100%;
+// }
+
+// .kitchenbanercontent {
+//   position: absolute;
+//     left: 100px;
+//     top: 25%;
+//     transform: translateY(-50%);
+//     padding: 10px;
+//     color: white;
+
+  
+// }
+// .tagline {
+//   width: 40%;
+//   font-family: "Montserrat";
+//   font-size: 32px;
+//   // line-height: 58.51px;
+//   color: #ffffff;
+//   font-family: "Montserrat";
+//   font-style: normal;
+//   font-weight: 600;
+//   // position: relative;
+ 
+// }
+
+// .kitchenbanerform {
+//   position: absolute;
+//   left: 30px;
+//   top: 60%;
+//   transform: translateY(-50%);
+//   padding: 10px;
+//   color: white;
+// }
+
+// @media only screen and (max-width: 868px) {
+//   .kitchenbanercontent {
+//     left: 20px;
+//     top: 15%;
+//     font-size: 24px;
+//   }
+
+//   .kitchenbanerform {
+//     position: relative; /* Change to relative for mobile view */
+//     left: 0;
+//     top: 0;
+//     transform: none;
+//     padding: 20px; /* Adjust padding for mobile view */
+//   }
+
+//   .imageContainer {
+//     flex-direction: column; /* Change to column for mobile view */
+//     align-items: flex-start; /* Align items to the top for mobile view */
+//   }
+// }
+
+// @media only screen and (max-width: 576px) {
+//   .kitchenbanercontent {
+//     left: 10px;
+//     top: 10%;
+//     font-size: 20px;
+//   }
+// }
+// .imageContainer {
+//   position: relative;
+// }
+
+// .kitchenimage {
+//   width: 100%;
+//   height: auto; /* Ensure the image scales properly */
+// }
+
+// .kitchenbanercontent {
+//   position: absolute;
+//   left: 100px;
+//   top: 25%;
+//   transform: translateY(-50%);
+//   padding: 10px;
+//   color: white;
+//   font-family: "Montserrat", sans-serif;
+//   font-size: 32px;
+//   font-weight: 600;
+//   white-space: nowrap; /* Prevent content from breaking to multiple lines */
+// }
+
+// .kitchenbanerform {
+//   position: absolute;
+//   left: 30px;
+//   top: 60%;
+//   transform: translateY(-50%);
+//   padding: 10px;
+//   color: white;
+// }
+
+// @media only screen and (max-width: 992px) {
+//   .kitchenbanercontent {
+//     left: 20px;
+//     top: 15%;
+//     font-size: 24px;
+//   }
+//   .kitchenimage {
+//     width: 100%;
+//     height: auto; /* Ensure the image scales properly */
+//   }
+
+//   .kitchenbanerform {
+//     position: relative; /* Keep the form at the top */
+//     left: 0;
+//     top: 0;
+//     transform: none;
+//     padding: 20px; /* Adjust padding for tablet view */
+//   }
+
+//   .imageContainer {
+//     flex-direction: column-reverse; /* Change to reverse column for tablet view */
+//     align-items: flex-start; /* Align items to the top for tablet view */
+//   }
+// }
+
+// @media only screen and (max-width: 576px) {
+//   .kitchenbanercontent {
+//     left: 10px;
+//     top: 10%;
+//     font-size: 20px;
+//   }
+// }
+.imageContainer {
+  position: relative;
+}
+
+.kitchenbanercontent {
+    position: absolute;
+    left: 100px;
+    top: 25%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    width:20%;
+  }
+.kitchenbanerform {
+  position: absolute;
+  left: 25px;
+  top:62%;
+  transform: translateY(-50%);
+  padding: 10px;
+  color: white;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .kitchenbanercontent {
+    left: 20px;
+    top: 15%;
+    font-size: 24px;
+    position:relative;
+    // padding-bottom: 100px;
+  }
+
+  .kitchenbanerform {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: none;
+    padding: 20px;
+    padding-top:50%;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 576px) {
+  .kitchenbanercontent {
+    left: 10px;
+    top: 10%;
+    // padding-bottom: 100px;
+    // font-size: 20px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1026px) {
+  .kitchenbanerform {
+    position: absolute;
+    left: 0;
+    // top: 60%;
+    transform: none;
+    // padding: 20px;
+    // padding-top:50%;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "FAQs":{
+    "faqBox":[
+      { "id": 1, "question": "What Is Home Interior Design?", "answer": "React is a JavaScript library for building user interfaces." },
+      { "id": 2, "question": "Why Is An Interior Designer Important?", "answer": "React is a JavaScript library for building user interfaces." },
+      { "id": 3, "question": "What are the most important factors to keep in mind while designing a room?", "answer": "React is a JavaScript library for building user interfaces." },
+      { "id": 4, "question": "Which Cities Is Lhome Operational In?", "answer": "React is a JavaScript library for building user interfaces." }
+
+    ]
+  }  
+}
+
+

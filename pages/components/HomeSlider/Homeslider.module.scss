@@ -1,0 +1,150 @@
+.lhomePage{
+   width:100%;
+   margin:0;
+   padding:0;
+   height:100vh;
+   overflow-x:hidden;
+   overflow-y:auto;
+   // display:flex;
+}
+.sliderwrapper{
+   width: 100%;
+   height: 660px;
+   // max-height: auto;
+   position: relative;
+   display: flex;
+   // flex-wrap: wrap;
+   justify-content: center;
+   // float: left;
+}
+@media (max-width:700px) {
+   .sliderwrapper{
+      flex-direction: column;
+      height: 170vh;
+   }
+}
+
+@media (min-width:650px) and (max-width:700px){
+   .slider{
+      padding-bottom: 20px;
+   }
+ }
+.slider{
+   background: #F44336;
+   flex: 1 0 300px;
+}
+
+
+.sliderwrapperinputs{
+   background: #2552A4;
+   flex: 1 0 300px;
+}
+
+.sliderwrappertextholder{
+   display:flex;
+   margin-top:20px;
+}
+.estimatebuttonholder{
+   display: flex;
+   padding-top: 150px;
+   padding-left: 20%;
+}
+
+
+.estimatebutton{
+   background: #FFFFFF;
+   border-radius: 5px;
+   padding:5px;
+}
+
+
+.estimatetext{
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 29px;
+   text-transform: capitalize;
+   color: #000000;
+}
+.taglineholder{
+   width:100%;
+   height:100px;
+   // margin-top:20px;
+}
+.tagline1{
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   font-size: 56px;
+   line-height: 70.77px;
+   color: #ffffff;
+   // font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 700;
+   // position: relative;
+   // justify-content: center;
+   // text-align: center;
+   padding: 0% 0% 0% 20%;
+}
+
+@media (max-width:1093px) {
+   .tagline1{
+      font-size: 5vw;
+   }
+}
+
+@media only screen and (max-width: 622px) {
+   .slider{
+       height:400px;
+    }
+    
+    .sliderwrapperinputs{
+       height:480px;
+    }
+
+    .sliderwrappertextholder{
+       text-align:center;
+       justify-content: center;
+    }
+    .sliderwrappertextholder{
+       padding-left:unset;
+    }
+    .tagline1{
+       top:50%;
+       font-size: 6vw;
+       width:90%;
+       justify-content: center;
+       padding-left:unset;
+       line-height:40px;
+    }     
+    .estimatebuttonholder{
+       padding-top: 20px;
+       padding-left: 0;
+       justify-content: center;
+    }
+    
+.designermeetholder {
+   width: 100% !important;
+}
+}
+@media only screen and (min-width: 622px) and (max-width : 800px) {
+   .tagline1{
+      font-size: 4vw;
+      width: 100%;
+      justify-content: center;
+      padding-left: 2px;
+      line-height: 30px;
+      position: relative;
+   }   
+   .estimatebuttonholder{
+       padding-top: 20px;
+       padding-left: 0;
+       justify-content: center;
+    }   
+}
+.designermeetholder{
+   width: 80%;
+   padding-top: 35px;
+   margin: 0 auto;
+}
